@@ -1,0 +1,256 @@
+.App {
+  text-align: center;
+  height: 100vh; /* Ensure the App takes the full viewport height */
+  overflow: hidden; /* Prevent the entire page from scrolling */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  height: 100vh;
+  color: white;
+  padding: 20px;
+}
+
+
+.button-container-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Start aligning from the top */
+  height: 50vh; /* Set height to 50% of the viewport height */
+  position: absolute;
+  top: 0;  /* Start at the top */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%); /* Correct for horizontal centering */
+  z-index: 150; /* Ensure it’s above other content */
+}
+
+/* Styling for the Import TCF File button */
+.button-container button {
+  background: linear-gradient(135deg, #4CAF50 0%, #2E7D32 100%);
+  color: white;
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20vh;
+  margin-left: 35vh;
+}
+
+.button-container button:hover {
+  background: linear-gradient(135deg, #66BB6A 0%, #388E3C 100%);
+  transform: scale(1.05);
+}
+
+.button-container button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(102, 187, 106, 0.5);
+}
+
+.button-container button:active {
+  background: linear-gradient(135deg, #388E3C 0%, #1B5E20 100%);
+}
+
+.scrollable-container {
+  width: 50%;
+  padding: 20px;
+  margin-right: 2.5%; /* Adjust to account for scrollbar width */
+  overflow: auto; /* Scrollbars will appear as needed */
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 150px); /* Adjust height as needed */
+  overflow: hidden; /* Prevent the entire wrapper from scrolling */
+}
+
+.table-header {
+  background-color: #282c34; /* Background color to match header */
+  color: white;
+  padding: 10px;
+  margin: 0;
+  top: 0;
+  z-index: 2; /* Ensure header is above table content */
+}
+
+.table-body-container {
+  max-height: 750px; /* Set the max height for the scrollable table area */
+  overflow-y: auto; /* Enable vertical scrolling for the table body */
+  box-sizing: content-box; /* Ensure padding doesn't affect width */
+}
+
+/* Custom scrollbar styles for WebKit browsers */
+.table-body-container::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+
+.table-body-container::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent thumb */
+  border-radius: 10px; /* Rounded corners */
+}
+
+.table-body-container::-webkit-scrollbar-track {
+  background-color: transparent; /* Transparent track */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Fixed table layout */
+  border: 1px solid #ddd; /* Ensure full border around the table */
+}
+
+table, th, td {
+  border: 1px solid #ddd; /* Apply border to all cells */
+  box-sizing: border-box; /* Ensure borders don't collapse incorrectly */
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  width: 150px; /* Set a constant width for table columns */
+  word-wrap: break-word; /* Break long words and wrap them to the next line */
+  white-space: normal; /* Allow text to wrap onto the next line */
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+thead th {
+  top: 0;
+  background-color: #333;
+  z-index: 1; /* Keep the table header above the content */
+}
+
+.message {
+  margin-top: 10px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  position: relative;
+  background: white;
+  height: 200px; 
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+input[type="file"] {
+  margin-bottom: 10px;
+}
+
+progress {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.file-name {
+  word-wrap: break-word; /* Allows long words to wrap onto the next line */
+  white-space: pre-wrap; /* Preserve whitespace and wrap text */
+  margin: 10px;
+}
+
+.stage-button {
+  background-color: grey;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.stage-button:hover {
+  background-color: rgb(67, 67, 67);
+}
+
+.staged-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: darkred;
+}
+
+.pixel-streaming-label {
+  position: absolute;
+  bottom: 53vh; /* Adjust based on the height of your iframe and spacing needed */
+  left: 5vh;
+  width: 40vw; /* Match the width of the iframe container */
+  text-align: center;
+  z-index: 101; /* Ensure it's above other content */
+}
+
+.pixel-streaming-label h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #ffffff; /* Choose a color that contrasts well with your background */
+}
+
+.pixel-streaming-container {
+  position: absolute;
+  bottom: 50px;  /* Adjust based on your layout */
+  left: 3%;  /* Adjust based on your layout */
+  width: 40vw;  /* Match the width of the iframe */
+  height: 45vh;  /* Match the height of the iframe */
+  overflow: hidden;
+  border: 1px solid white;  /* Add white border */
+  box-sizing: border-box;  /* Include border in the element's dimensions */
+  z-index: 100;  /* Ensure it's above other content */
+}
