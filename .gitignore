@@ -1,0 +1,5 @@
+node_modules
+webapp/package-lock.json
+backend/venv
+Windows/NiagaraPointCloud/Binaries/NiagaraPointCloud.exe
+Windows/NiagaraPointCloud/Binaries/NiagaraPointCloud.pdb

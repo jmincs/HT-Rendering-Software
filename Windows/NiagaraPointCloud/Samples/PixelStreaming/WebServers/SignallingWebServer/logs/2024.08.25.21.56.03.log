@@ -1,0 +1,115 @@
+21:56:03.869 Config: {
+	"UseFrontend": false,
+	"UseMatchmaker": false,
+	"UseHTTPS": false,
+	"HTTPSCertFile": "./certificates/client-cert.pem",
+	"HTTPSKeyFile": "./certificates/client-key.pem",
+	"LogToFile": true,
+	"LogVerbose": true,
+	"HomepageFile": "player.html",
+	"AdditionalRoutes": {},
+	"EnableWebserver": true,
+	"MatchmakerAddress": "",
+	"MatchmakerPort": 9999,
+	"PublicIp": "localhost",
+	"HttpPort": 80,
+	"HttpsPort": 443,
+	"StreamerPort": 8888,
+	"SFUPort": 8889,
+	"MaxPlayerCount": -1,
+	"DisableSSLCert": true
+}
+21:56:03.889 No peerConnectionConfig
+21:56:03.893 Running Cirrus - The Pixel Streaming reference implementation signalling server for Unreal Engine 5.4.
+21:56:03.901 WebSocket listening for Streamer connections on :8888
+21:56:03.902 WebSocket listening for SFU connections on :8889
+21:56:03.902 WebSocket listening for Players connections on :80
+21:56:03.903 Http listening on *: 80
+21:56:03.983 Streamer connected: ::ffff:127.0.0.1
+21:56:03.983 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+21:56:03.983 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+21:56:04.280 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+21:56:04.281 Registered new streamer: DefaultStreamer
+21:56:26.400 streamer DefaultStreamer disconnected: 1006 - 
+21:56:26.401 unsubscribing all players on DefaultStreamer
+21:57:01.911 Streamer connected: ::ffff:127.0.0.1
+21:57:01.912 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+21:57:01.912 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+21:57:02.208 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+21:57:02.208 Registered new streamer: DefaultStreamer
+21:58:01.993 [37mDefaultStreamer ->[34m {"type":"ping","time":1727326681}
+21:59:02.005 [37mDefaultStreamer ->[34m {"type":"ping","time":1727326741}
+22:00:01.983 [37mDefaultStreamer ->[34m {"type":"ping","time":1727326801}
+22:01:01.977 [37mDefaultStreamer ->[34m {"type":"ping","time":1727326861}
+22:02:02.005 [37mDefaultStreamer ->[34m {"type":"ping","time":1727326921}
+22:03:01.982 [37mDefaultStreamer ->[34m {"type":"ping","time":1727326981}
+22:04:01.983 [37mDefaultStreamer ->[34m {"type":"ping","time":1727327041}
+22:05:01.993 [37mDefaultStreamer ->[34m {"type":"ping","time":1727327101}
+22:06:01.987 [37mDefaultStreamer ->[34m {"type":"ping","time":1727327161}
+22:06:52.921 streamer DefaultStreamer disconnected: 1006 - 
+22:06:52.922 unsubscribing all players on DefaultStreamer
+22:06:57.440 Streamer connected: ::ffff:127.0.0.1
+22:06:57.440 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+22:06:57.441 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+22:06:57.774 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+22:06:57.774 Registered new streamer: DefaultStreamer
+22:07:09.176 streamer DefaultStreamer disconnected: 1006 - 
+22:07:09.176 unsubscribing all players on DefaultStreamer
+22:36:22.410 Streamer connected: ::ffff:127.0.0.1
+22:36:22.410 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+22:36:22.410 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+22:36:22.711 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+22:36:22.711 Registered new streamer: DefaultStreamer
+22:37:22.465 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329042}
+22:37:37.394 streamer DefaultStreamer disconnected: 1006 - 
+22:37:37.394 unsubscribing all players on DefaultStreamer
+22:37:39.158 Streamer connected: ::ffff:127.0.0.1
+22:37:39.158 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+22:37:39.158 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+22:37:39.472 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+22:37:39.472 Registered new streamer: DefaultStreamer
+22:38:39.258 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329119}
+22:39:39.247 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329179}
+22:40:03.307 streamer DefaultStreamer disconnected: 1006 - 
+22:40:03.307 unsubscribing all players on DefaultStreamer
+22:40:05.059 Streamer connected: ::ffff:127.0.0.1
+22:40:05.059 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+22:40:05.060 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+22:40:05.380 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+22:40:05.381 Registered new streamer: DefaultStreamer
+22:41:05.153 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329265}
+22:41:10.949 streamer DefaultStreamer disconnected: 1006 - 
+22:41:10.949 unsubscribing all players on DefaultStreamer
+22:41:12.683 Streamer connected: ::ffff:127.0.0.1
+22:41:12.684 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+22:41:12.684 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+22:41:12.976 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+22:41:12.977 Registered new streamer: DefaultStreamer
+22:42:12.759 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329332}
+22:43:12.757 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329392}
+22:43:45.927 streamer DefaultStreamer disconnected: 1006 - 
+22:43:45.927 unsubscribing all players on DefaultStreamer
+22:43:47.780 Streamer connected: ::ffff:127.0.0.1
+22:43:47.780 [37m::ffff:127.0.0.1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+22:43:47.780 [37m::ffff:127.0.0.1 <-[32m {"type":"identify"}
+22:43:48.086 [37m::ffff:127.0.0.1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+22:43:48.087 Registered new streamer: DefaultStreamer
+22:44:06.794 player 1 (::1) connected
+22:44:06.794 [37m1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+22:44:06.794 [37m[players] <-[32m {"type":"playerCount","count":1}
+22:44:06.796 [37m1 ->[34m {"type":"listStreamers"}
+22:44:06.796 [37m1 <-[32m {"type":"streamerList","ids":["DefaultStreamer"]}
+22:44:06.797 [37m1 ->[34m {"type":"subscribe","streamerId":"DefaultStreamer"}
+22:44:06.798 [37mDefaultStreamer <-[32m {"type":"playerConnected","playerId":"1","dataChannel":true,"sfu":false,"sendOffer":true}
+22:44:06.877 [37mDefaultStreamer -> 1[36m {"type":"offer","sdp":"v=0\r\no=- 8135470180870746775 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1 2\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS pixelstreaming_audio_stream_id pixelstreaming_video_stream_id\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 98 99 100 101 102 103 104 105 106\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:dN21\r\na=ice-pwd:UHto7W4LTHOnCpp1bJw2b++C\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9F:4E:AB:21:B6:66:AF:17:A3:DA:F2:97:48:8A:6E:38:95:73:FA:72:1B:12:E5:DF:E8:23:15:64:EF:BC:DD:C7\r\na=setup:actpass\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=sendonly\r\na=msid:pixelstreaming_video_stream_id pixelstreaming_video_track_label\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 H264/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:98 H264/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 VP9/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=rtpmap:103 rtx/90000\r\na=fmtp:103 apt=102\r\na=rtpmap:104 red/90000\r\na=rtpmap:105 rtx/90000\r\na=fmtp:105 apt=104\r\na=rtpmap:106 ulpfec/90000\r\na=ssrc-group:FID 3855374086 1131154125\r\na=ssrc:3855374086 cname:hEArlMZFUW4v0sjM\r\na=ssrc:3855374086 msid:pixelstreaming_video_stream_id pixelstreaming_video_track_label\r\na=ssrc:1131154125 cname:hEArlMZFUW4v0sjM\r\na=ssrc:1131154125 msid:pixelstreaming_video_stream_id pixelstreaming_video_track_label\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 110\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:dN21\r\na=ice-pwd:UHto7W4LTHOnCpp1bJw2b++C\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9F:4E:AB:21:B6:66:AF:17:A3:DA:F2:97:48:8A:6E:38:95:73:FA:72:1B:12:E5:DF:E8:23:15:64:EF:BC:DD:C7\r\na=setup:actpass\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=sendrecv\r\na=msid:pixelstreaming_audio_stream_id pixelstreaming_audio_track_label\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 maxaveragebitrate=510000;maxplaybackrate=48000;minptime=3;sprop-stereo=1;stereo=1;usedtx=0;useinbandfec=1\r\na=rtpmap:63 red/48000/2\r\na=fmtp:63 111/111\r\na=rtpmap:110 telephone-event/48000\r\na=maxptime:120\r\na=ptime:20\r\na=ssrc:3731416012 cname:hEArlMZFUW4v0sjM\r\na=ssrc:3731416012 msid:pixelstreaming_audio_stream_id pixelstreaming_audio_track_label\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:dN21\r\na=ice-pwd:UHto7W4LTHOnCpp1bJw2b++C\r\na=ice-options:trickle\r\na=fingerprint:sha-256 9F:4E:AB:21:B6:66:AF:17:A3:DA:F2:97:48:8A:6E:38:95:73:FA:72:1B:12:E5:DF:E8:23:15:64:EF:BC:DD:C7\r\na=setup:actpass\r\na=mid:2\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"}
+22:44:06.896 [37m1 -> DefaultStreamer[36m {"type":"answer","sdp":"v=0\r\no=- 3632741406446649527 2 IN IP4 127.0.0.1\r\ns=-\r\nt=0 0\r\na=group:BUNDLE 0 1 2\r\na=extmap-allow-mixed\r\na=msid-semantic: WMS\r\nm=video 9 UDP/TLS/RTP/SAVPF 96 97 100 101 102 103 98 99 104 105 106\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:xP9O\r\na=ice-pwd:bgd7td5Y+UVx/yfAMRFYwQT4\r\na=ice-options:trickle\r\na=fingerprint:sha-256 46:2E:62:C0:67:86:01:C5:94:31:A5:45:4B:EE:06:FD:D0:BE:05:F7:85:74:1A:A1:A9:48:33:48:A9:D0:C2:A0\r\na=setup:active\r\na=mid:0\r\na=extmap:1 urn:ietf:params:rtp-hdrext:toffset\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:3 urn:3gpp:video-orientation\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:5 http://www.webrtc.org/experiments/rtp-hdrext/playout-delay\r\na=extmap:6 http://www.webrtc.org/experiments/rtp-hdrext/video-content-type\r\na=extmap:7 http://www.webrtc.org/experiments/rtp-hdrext/video-timing\r\na=extmap:8 http://www.webrtc.org/experiments/rtp-hdrext/color-space\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=extmap:10 urn:ietf:params:rtp-hdrext:sdes:rtp-stream-id\r\na=extmap:11 urn:ietf:params:rtp-hdrext:sdes:repaired-rtp-stream-id\r\na=recvonly\r\na=rtcp-mux\r\na=rtcp-rsize\r\na=rtpmap:96 H264/90000\r\na=rtcp-fb:96 goog-remb\r\na=rtcp-fb:96 transport-cc\r\na=rtcp-fb:96 ccm fir\r\na=rtcp-fb:96 nack\r\na=rtcp-fb:96 nack pli\r\na=fmtp:96 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42e01f;x-google-max-bitrate=100000;x-google-start-bitrate=10000\r\na=rtpmap:97 rtx/90000\r\na=fmtp:97 apt=96\r\na=rtpmap:100 VP8/90000\r\na=rtcp-fb:100 goog-remb\r\na=rtcp-fb:100 transport-cc\r\na=rtcp-fb:100 ccm fir\r\na=rtcp-fb:100 nack\r\na=rtcp-fb:100 nack pli\r\na=rtpmap:101 rtx/90000\r\na=fmtp:101 apt=100\r\na=rtpmap:102 VP9/90000\r\na=rtcp-fb:102 goog-remb\r\na=rtcp-fb:102 transport-cc\r\na=rtcp-fb:102 ccm fir\r\na=rtcp-fb:102 nack\r\na=rtcp-fb:102 nack pli\r\na=fmtp:102 profile-id=0\r\na=rtpmap:103 rtx/90000\r\na=fmtp:103 apt=102\r\na=rtpmap:98 H264/90000\r\na=rtcp-fb:98 goog-remb\r\na=rtcp-fb:98 transport-cc\r\na=rtcp-fb:98 ccm fir\r\na=rtcp-fb:98 nack\r\na=rtcp-fb:98 nack pli\r\na=fmtp:98 level-asymmetry-allowed=1;packetization-mode=1;profile-level-id=42001f;x-google-max-bitrate=100000;x-google-start-bitrate=10000\r\na=rtpmap:99 rtx/90000\r\na=fmtp:99 apt=98\r\na=rtpmap:104 red/90000\r\na=rtpmap:105 rtx/90000\r\na=fmtp:105 apt=104\r\na=rtpmap:106 ulpfec/90000\r\nm=audio 9 UDP/TLS/RTP/SAVPF 111 63 110\r\nc=IN IP4 0.0.0.0\r\na=rtcp:9 IN IP4 0.0.0.0\r\na=ice-ufrag:xP9O\r\na=ice-pwd:bgd7td5Y+UVx/yfAMRFYwQT4\r\na=ice-options:trickle\r\na=fingerprint:sha-256 46:2E:62:C0:67:86:01:C5:94:31:A5:45:4B:EE:06:FD:D0:BE:05:F7:85:74:1A:A1:A9:48:33:48:A9:D0:C2:A0\r\na=setup:active\r\na=mid:1\r\na=extmap:14 urn:ietf:params:rtp-hdrext:ssrc-audio-level\r\na=extmap:2 http://www.webrtc.org/experiments/rtp-hdrext/abs-send-time\r\na=extmap:4 http://www.ietf.org/id/draft-holmer-rmcat-transport-wide-cc-extensions-01\r\na=extmap:9 urn:ietf:params:rtp-hdrext:sdes:mid\r\na=recvonly\r\na=rtcp-mux\r\na=rtpmap:111 opus/48000/2\r\na=rtcp-fb:111 transport-cc\r\na=fmtp:111 maxaveragebitrate=510000;minptime=10;stereo=1;useinbandfec=1\r\na=rtpmap:63 red/48000/2\r\na=fmtp:63 111/111\r\na=rtpmap:110 telephone-event/48000\r\nm=application 9 UDP/DTLS/SCTP webrtc-datachannel\r\nc=IN IP4 0.0.0.0\r\na=ice-ufrag:xP9O\r\na=ice-pwd:bgd7td5Y+UVx/yfAMRFYwQT4\r\na=ice-options:trickle\r\na=fingerprint:sha-256 46:2E:62:C0:67:86:01:C5:94:31:A5:45:4B:EE:06:FD:D0:BE:05:F7:85:74:1A:A1:A9:48:33:48:A9:D0:C2:A0\r\na=setup:active\r\na=mid:2\r\na=sctp-port:5000\r\na=max-message-size:262144\r\n"}
+22:44:06.896 [37m1 -> DefaultStreamer[36m {"type":"iceCandidate","candidate":{"candidate":"candidate:4113111911 1 udp 2113937151 5cba0294-219b-4612-b157-e103f83b2b22.local 56945 typ host generation 0 ufrag xP9O network-cost 999","sdpMid":"0","sdpMLineIndex":0,"usernameFragment":"xP9O"}}
+22:44:06.909 [37mDefaultStreamer -> 1[36m {"type":"iceCandidate","candidate":{"sdpMid":"0","sdpMLineIndex":0,"candidate":"candidate:712583556 1 udp 2122260223 172.23.164.60 49152 typ host generation 0 ufrag dN21 network-id 1 network-cost 10"}}
+22:44:06.942 [37mDefaultStreamer -> 1[36m {"type":"iceCandidate","candidate":{"sdpMid":"1","sdpMLineIndex":1,"candidate":"candidate:712583556 1 udp 2122260223 172.23.164.60 49153 typ host generation 0 ufrag dN21 network-id 1 network-cost 10"}}
+22:44:06.976 [37mDefaultStreamer -> 1[36m {"type":"iceCandidate","candidate":{"sdpMid":"2","sdpMLineIndex":2,"candidate":"candidate:712583556 1 udp 2122260223 172.23.164.60 49154 typ host generation 0 ufrag dN21 network-id 1 network-cost 10"}}
+22:44:47.867 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329487}
+22:45:47.877 [37mDefaultStreamer ->[34m {"type":"ping","time":1727329547}
+22:46:19.772 streamer DefaultStreamer disconnected: 1006 - 
+22:46:19.772 unsubscribing all players on DefaultStreamer
+22:46:19.774 player 1 connection closed: 1005 - 
+22:46:19.774 [37m[players] <-[32m {"type":"playerCount","count":0}

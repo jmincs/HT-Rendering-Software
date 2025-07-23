@@ -1,0 +1,34 @@
+00:11:31.453 Config: {
+	"UseFrontend": false,
+	"UseMatchmaker": false,
+	"UseHTTPS": false,
+	"HTTPSCertFile": "./certificates/client-cert.pem",
+	"HTTPSKeyFile": "./certificates/client-key.pem",
+	"LogToFile": true,
+	"LogVerbose": true,
+	"HomepageFile": "player.html",
+	"AdditionalRoutes": {},
+	"EnableWebserver": true,
+	"MatchmakerAddress": "",
+	"MatchmakerPort": 9999,
+	"PublicIp": "localhost",
+	"HttpPort": 80,
+	"HttpsPort": 443,
+	"StreamerPort": 8888,
+	"SFUPort": 8889,
+	"MaxPlayerCount": -1,
+	"DisableSSLCert": true
+}
+00:11:31.749 No peerConnectionConfig
+00:11:31.763 Running Cirrus - The Pixel Streaming reference implementation signalling server for Unreal Engine 5.4.
+00:11:31.863 WebSocket listening for Streamer connections on :8888
+00:11:31.864 WebSocket listening for SFU connections on :8889
+00:11:31.864 WebSocket listening for Players connections on :80
+00:11:31.866 Http listening on *: 80
+00:11:32.329 Streamer connected: ::1
+00:11:32.329 [37m::1 <-[32m "{\"type\":\"config\",\"peerConnectionOptions\":{}}"
+00:11:32.330 [37m::1 <-[32m {"type":"identify"}
+00:11:32.427 [37m::1 ->[34m {"type":"endpointId","id":"DefaultStreamer"}
+00:11:32.427 Registered new streamer: DefaultStreamer
+00:11:34.678 streamer DefaultStreamer disconnected: 1006 - 
+00:11:34.678 unsubscribing all players on DefaultStreamer

@@ -1,0 +1,944 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+<RuntimeProperties>
+<CrashVersion>3</CrashVersion>
+<ExecutionGuid>955A04E34881E74583F398AEAAEB3B8B</ExecutionGuid>
+<CrashGUID>UECC-Windows-768B32FF49D760644F20CBBB81CFCD32_0000</CrashGUID>
+<IsEnsure>false</IsEnsure>
+<IsStall>false</IsStall>
+<IsAssert>false</IsAssert>
+<CrashType>Crash</CrashType>
+<ErrorMessage>Unhandled Exception: EXCEPTION_ACCESS_VIOLATION reading address 0x0000010c02aba000</ErrorMessage>
+<CrashReporterMessage></CrashReporterMessage>
+<CrashReporterMessage>Attended</CrashReporterMessage>
+<ProcessId>4544</ProcessId>
+<SecondsSinceStart>0</SecondsSinceStart>
+<IsInternalBuild>false</IsInternalBuild>
+<IsPerforceBuild>false</IsPerforceBuild>
+<IsWithDebugInfo>false</IsWithDebugInfo>
+<IsSourceDistribution>false</IsSourceDistribution>
+<GameName>UE-NiagaraPointCloud</GameName>
+<ExecutableName>NiagaraPointCloud</ExecutableName>
+<BuildConfiguration>Development</BuildConfiguration>
+<GameSessionID></GameSessionID>
+<PlatformName>Windows</PlatformName>
+<PlatformFullName>Windows</PlatformFullName>
+<PlatformNameIni>Windows</PlatformNameIni>
+<EngineMode>Game</EngineMode>
+<EngineModeEx>Unset</EngineModeEx>
+<DeploymentName></DeploymentName>
+<EngineVersion>5.4.4-35576357+++UE5+Release-5.4</EngineVersion>
+<EngineCompatibleVersion>5.4.4-35576357+++UE5+Release-5.4</EngineCompatibleVersion>
+<CommandLine> NiagaraPointCloud -PixelStreamingIP=localhost -PixelStreamingPort=8888</CommandLine>
+<LanguageLCID>0</LanguageLCID>
+<AppDefaultLocale>en-US</AppDefaultLocale>
+<BuildVersion>++UE5+Release-5.4-CL-35576357</BuildVersion>
+<Symbols>**UE5*Release-5.4-CL-35576357-Win64-Development</Symbols>
+<IsUERelease>false</IsUERelease>
+<IsRequestingExit>false</IsRequestingExit>
+<UserName></UserName>
+<BaseDir>C:/Users/Brian/CS/HT-3D-Navigator-1/Windows/NiagaraPointCloud/Binaries/Win64/</BaseDir>
+<RootDir>C:/Users/Brian/CS/HT-3D-Navigator-1/Windows/</RootDir>
+<MachineId>89C251E447CE75A9742B4483D16A80C2</MachineId>
+<LoginId>89c251e447ce75a9742b4483d16a80c2</LoginId>
+<EpicAccountId>db147fdeab5d46e69e8edf4bf0cc7b81</EpicAccountId>
+<SourceContext></SourceContext>
+<UserDescription></UserDescription>
+<UserActivityHint></UserActivityHint>
+<CrashDumpMode>0</CrashDumpMode>
+<GameStateName></GameStateName>
+<Misc.NumberOfCores>8</Misc.NumberOfCores>
+<Misc.NumberOfCoresIncludingHyperthreads>16</Misc.NumberOfCoresIncludingHyperthreads>
+<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+<Misc.CPUVendor>AuthenticAMD</Misc.CPUVendor>
+<Misc.CPUBrand>AMD Ryzen 7 7800X3D 8-Core Processor           </Misc.CPUBrand>
+<Misc.PrimaryGPUBrand>NVIDIA GeForce RTX 3090</Misc.PrimaryGPUBrand>
+<Misc.OSVersionMajor>Windows 11 (24H2) [10.0.26100.3624]</Misc.OSVersionMajor>
+<Misc.OSVersionMinor></Misc.OSVersionMinor>
+<Misc.AnticheatProvider></Misc.AnticheatProvider>
+<MemoryStats.TotalPhysical>33514483712</MemoryStats.TotalPhysical>
+<MemoryStats.TotalVirtual>37272580096</MemoryStats.TotalVirtual>
+<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+<MemoryStats.TotalPhysicalGB>32</MemoryStats.TotalPhysicalGB>
+<MemoryStats.AvailablePhysical>0</MemoryStats.AvailablePhysical>
+<MemoryStats.AvailableVirtual>0</MemoryStats.AvailableVirtual>
+<MemoryStats.UsedPhysical>0</MemoryStats.UsedPhysical>
+<MemoryStats.PeakUsedPhysical>0</MemoryStats.PeakUsedPhysical>
+<MemoryStats.UsedVirtual>0</MemoryStats.UsedVirtual>
+<MemoryStats.PeakUsedVirtual>0</MemoryStats.PeakUsedVirtual>
+<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+<NumMinidumpFramesToIgnore>0</NumMinidumpFramesToIgnore>
+<CallStack></CallStack>
+<PCallStack>
+
+VCRUNTIME140       0x00007ffca5b10000 + f88b            
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a72e43         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a66ef8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 868cf1e         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e443d8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e6e7df         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15922ea         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15928be         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e9394e         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e96ec9         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</PCallStack>
+<PCallStackHash>DA3099F4ACE1D88F19C14E50AF6E75CF2F0C4B66</PCallStackHash>
+<Threads><Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e75677         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e745de         
+NiagaraPointCloud  0x00007ff79a2d0000 + 851612c         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8507715         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8505918         
+NiagaraPointCloud  0x00007ff79a2d0000 + 79163ac         
+NiagaraPointCloud  0x00007ff79a2d0000 + 6d5451e         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8f738a8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8f904fc         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8f9069a         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8f93265         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8fa3544         
+NiagaraPointCloud  0x00007ff79a2d0000 + d0f614a         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41144</ThreadID>
+<ThreadName>GameThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41128</ThreadID>
+<ThreadName>Foreground Worker #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41408</ThreadID>
+<ThreadName>Foreground Worker #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35892</ThreadID>
+<ThreadName>Background Worker #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35500</ThreadID>
+<ThreadName>Background Worker #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36680</ThreadID>
+<ThreadName>Background Worker #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>16576</ThreadID>
+<ThreadName>Background Worker #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1752</ThreadID>
+<ThreadName>Background Worker #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12276</ThreadID>
+<ThreadName>Background Worker #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34596</ThreadID>
+<ThreadName>Background Worker #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37116</ThreadID>
+<ThreadName>Background Worker #9</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>4652</ThreadID>
+<ThreadName>Background Worker #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>2828</ThreadID>
+<ThreadName>Background Worker #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34256</ThreadID>
+<ThreadName>Background Worker #12</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156e3f3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15a0116         
+NiagaraPointCloud  0x00007ff79a2d0000 + 156a3f0         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41380</ThreadID>
+<ThreadName>Background Worker #13</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6212</ThreadID>
+<ThreadName>BackgroundThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41376</ThreadID>
+<ThreadName>BackgroundThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c644          
+ntdll              0x00007ffcc5360000 + cb6f4           
+KERNELBASE         0x00007ffcc2570000 + 78c91           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760ca8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41372</ThreadID>
+<ThreadName>FHeartBeatThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c644          
+ntdll              0x00007ffcc5360000 + cb6f4           
+KERNELBASE         0x00007ffcc2570000 + 78c91           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1965d25         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37468</ThreadID>
+<ThreadName>FAsyncWriter_NiagaraPointCloud</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 6c9f62c         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>6552</ThreadID>
+<ThreadName>FMediaTicker</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c644          
+ntdll              0x00007ffcc5360000 + cb6f4           
+KERNELBASE         0x00007ffcc2570000 + 78c91           
+NiagaraPointCloud  0x00007ff79a2d0000 + 31bac89         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>34316</ThreadID>
+<ThreadName>HttpManagerThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + b6e1986         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>35236</ThreadID>
+<ThreadName>OnlineAsyncTaskThreadNull DefaultInstance(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15fc14          
+ntdll              0x00007ffcc5360000 + 7d9d5           
+KERNELBASE         0x00007ffcc2570000 + e4b78           
+NiagaraPointCloud  0x00007ff79a2d0000 + 18b4dac         
+NiagaraPointCloud  0x00007ff79a2d0000 + 159e06d         
+NiagaraPointCloud  0x00007ff79a2d0000 + 159d5dc         
+NiagaraPointCloud  0x00007ff79a2d0000 + 196c972         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760d53         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27076</ThreadID>
+<ThreadName>OutputDeviceRedirector</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36104</ThreadID>
+<ThreadName>IOThreadPool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>27776</ThreadID>
+<ThreadName>IOThreadPool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>19460</ThreadID>
+<ThreadName>IOThreadPool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>40140</ThreadID>
+<ThreadName>IOThreadPool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 45d3f82         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32760</ThreadID>
+<ThreadName>IoService</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 185eb47         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33868</ThreadID>
+<ThreadName>IoDispatcher</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a6a8d5         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30596</ThreadID>
+<ThreadName>RHIInterruptThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a6a8d5         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41272</ThreadID>
+<ThreadName>RHISubmissionThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1591f7a         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15928be         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e96e3a         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>40416</ThreadID>
+<ThreadName>RHIThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b0d7ed         
+NiagaraPointCloud  0x00007ff79a2d0000 + d1a24f2         
+VCRUNTIME140       0x00007ffca5b10000 + e7bf            
+ntdll              0x00007ffcc5360000 + 1606ff          
+ntdll              0x00007ffcc5360000 + 3a328           
+ntdll              0x00007ffcc5360000 + 16003e          
+VCRUNTIME140       0x00007ffca5b10000 + f88b            
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a72e43         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a66ef8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 868cf1e         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e443d8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e6e7df         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15922ea         
+NiagaraPointCloud  0x00007ff79a2d0000 + 15928be         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e9394e         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e96ec9         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>true</IsCrashed>
+<Registers></Registers>
+<ThreadID>41276</ThreadID>
+<ThreadName>RenderThread 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c644          
+ntdll              0x00007ffcc5360000 + cb6f4           
+KERNELBASE         0x00007ffcc2570000 + 78c91           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b8ab2b         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5e96fe8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1484</ThreadID>
+<ThreadName>RTHeartBeat 0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>32968</ThreadID>
+<ThreadName>PSOPrecompilePool #0</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>3524</ThreadID>
+<ThreadName>PSOPrecompilePool #1</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>10152</ThreadID>
+<ThreadName>PSOPrecompilePool #2</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41312</ThreadID>
+<ThreadName>PSOPrecompilePool #3</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>5996</ThreadID>
+<ThreadName>PSOPrecompilePool #4</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>40976</ThreadID>
+<ThreadName>PSOPrecompilePool #5</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41320</ThreadID>
+<ThreadName>PSOPrecompilePool #6</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>41316</ThreadID>
+<ThreadName>PSOPrecompilePool #7</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>40964</ThreadID>
+<ThreadName>PSOPrecompilePool #8</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>36112</ThreadID>
+<ThreadName>PSOPrecompilePool #9</ThreadName>
+</Thread>
+<Thread><CallStack>nvgpucomp64        0x00007ffcb75d0000 + 1287a1f         
+nvgpucomp64        0x00007ffcb75d0000 + 1285f20         
+nvgpucomp64        0x00007ffcb75d0000 + 12852ab         
+nvgpucomp64        0x00007ffcb75d0000 + 127eb56         
+nvgpucomp64        0x00007ffcb75d0000 + 127e30e         
+nvgpucomp64        0x00007ffcb75d0000 + 10fcc50         
+nvgpucomp64        0x00007ffcb75d0000 + 10fcd37         
+nvgpucomp64        0x00007ffcb75d0000 + 893ad9          
+nvgpucomp64        0x00007ffcb75d0000 + 893ba5          
+nvgpucomp64        0x00007ffcb75d0000 + 1cb15cb         
+nvgpucomp64        0x00007ffcb75d0000 + 1cb0370         
+nvgpucomp64        0x00007ffcb75d0000 + 1cc3fb1         
+nvgpucomp64        0x00007ffcb75d0000 + 4f2355          
+nvgpucomp64        0x00007ffcb75d0000 + 4f02ef          
+nvgpucomp64        0x00007ffcb75d0000 + 5096da          
+nvgpucomp64        0x00007ffcb75d0000 + 4f0527          
+nvwgf2umx          0x00007ffcb2050000 + 7bec0d          
+nvwgf2umx          0x00007ffcb2050000 + 2112d0          
+nvwgf2umx          0x00007ffcb2050000 + 211e04          
+nvwgf2umx          0x00007ffcb2050000 + 210c06          
+nvwgf2umx          0x00007ffcb2050000 + 20d43d          
+nvwgf2umx          0x00007ffcb2050000 + cb59e           
+nvwgf2umx          0x00007ffcb2050000 + 230412          
+nvwgf2umx          0x00007ffcb2050000 + d177e           
+nvwgf2umx          0x00007ffcb2050000 + 76d797          
+D3D12Core          0x00007ffac3ff0000 + f6b4e           
+D3D12Core          0x00007ffac3ff0000 + 22290           
+D3D12Core          0x00007ffac3ff0000 + 2b78c           
+D3D12Core          0x00007ffac3ff0000 + 25e1e           
+D3D12Core          0x00007ffac3ff0000 + 7844b           
+d3d12              0x00007ffac6450000 + 1697            
+D3D12Core          0x00007ffac3ff0000 + 1cf73           
+D3D12Core          0x00007ffac3ff0000 + 7c6df           
+D3D12Core          0x00007ffac3ff0000 + 431f4           
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a86357         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a8676d         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a859ee         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a841e3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a90b0f         
+NiagaraPointCloud  0x00007ff79a2d0000 + 59f2370         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a02595         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5a63595         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5c76e7b         
+NiagaraPointCloud  0x00007ff79a2d0000 + 5c7a3b3         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1669a8e         
+NiagaraPointCloud  0x00007ff79a2d0000 + 166801e         
+NiagaraPointCloud  0x00007ff79a2d0000 + 17609d8         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>33340</ThreadID>
+<ThreadName>PSOPrecompilePool #10</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1760965         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>31536</ThreadID>
+<ThreadName>PSOPrecompilePool #11</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c644          
+ntdll              0x00007ffcc5360000 + cb6f4           
+KERNELBASE         0x00007ffcc2570000 + 78c91           
+NiagaraPointCloud  0x00007ff79a2d0000 + 9917d46         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>12608</ThreadID>
+<ThreadName>LibwebsocketsThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 2c85910         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39532</ThreadID>
+<ThreadName>FMessageBus.DefaultBus.Router</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1fa2634         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1fa2396         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1f396ee         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>39212</ThreadID>
+<ThreadName>FAsyncLoadingThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8f71812         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>30096</ThreadID>
+<ThreadName>FFileTransferRunnable</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c644          
+ntdll              0x00007ffcc5360000 + cb6f4           
+KERNELBASE         0x00007ffcc2570000 + 78c91           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b8ab2b         
+NiagaraPointCloud  0x00007ff79a2d0000 + 8789bc1         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>1088</ThreadID>
+<ThreadName>ScreenSaverInhibitor</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 44bd4ee         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>7588</ThreadID>
+<ThreadName>AudioMixerNullCallbackThread</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 44bd90d         
+NiagaraPointCloud  0x00007ff79a2d0000 + 44bd7c7         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>37880</ThreadID>
+<ThreadName>AudioMixerRenderThread(1)</ThreadName>
+</Thread>
+<Thread><CallStack>ntdll              0x00007ffcc5360000 + 15c044          
+KERNELBASE         0x00007ffcc2570000 + 4cdcf           
+NiagaraPointCloud  0x00007ff79a2d0000 + 1be6889         
+NiagaraPointCloud  0x00007ff79a2d0000 + 208d342         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b88478         
+NiagaraPointCloud  0x00007ff79a2d0000 + 1b7bfc7         
+KERNEL32           0x00007ffcc3c90000 + 2e8d7           
+</CallStack>
+<IsCrashed>false</IsCrashed>
+<Registers></Registers>
+<ThreadID>13228</ThreadID>
+<ThreadName>FAsyncPurge</ThreadName>
+</Thread>
+</Threads>
+</RuntimeProperties>
+<PlatformProperties>
+<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+<IsRunningOnBattery>false</IsRunningOnBattery>
+<DriveStats.Project.Name>C:/Users/Brian/CS/HT-3D-Navigator-1/Windows/NiagaraPointCloud/Binaries/Win64/</DriveStats.Project.Name>
+<DriveStats.Project.Type>NVMe</DriveStats.Project.Type>
+<DriveStats.Project.FreeSpaceKb>993618340</DriveStats.Project.FreeSpaceKb>
+<PlatformCallbackResult>0</PlatformCallbackResult>
+<CrashTrigger>0</CrashTrigger>
+</PlatformProperties>
+<EngineData>
+<MatchingDPStatus>WindowsNo errors</MatchingDPStatus>
+<RHI.IntegratedGPU>false</RHI.IntegratedGPU>
+<RHI.DriverDenylisted>false</RHI.DriverDenylisted>
+<RHI.D3DDebug>false</RHI.D3DDebug>
+<RHI.Breadcrumbs>true</RHI.Breadcrumbs>
+<RHI.DRED>false</RHI.DRED>
+<RHI.DREDMarkersOnly>true</RHI.DREDMarkersOnly>
+<RHI.DREDContext>false</RHI.DREDContext>
+<RHI.Aftermath>true</RHI.Aftermath>
+<RHI.RHIName>D3D12</RHI.RHIName>
+<RHI.AdapterName>NVIDIA GeForce RTX 3090</RHI.AdapterName>
+<RHI.UserDriverVersion>566.36</RHI.UserDriverVersion>
+<RHI.InternalDriverVersion>32.0.15.6636</RHI.InternalDriverVersion>
+<RHI.DriverDate>12-3-2024</RHI.DriverDate>
+<RHI.FeatureLevel>SM6</RHI.FeatureLevel>
+<RHI.GPUVendor>NVIDIA</RHI.GPUVendor>
+<RHI.DeviceId>2204</RHI.DeviceId>
+<DeviceProfile.Name>Windows</DeviceProfile.Name>
+</EngineData>
+<GameData>
+</GameData>
+</FGenericCrashContext>
