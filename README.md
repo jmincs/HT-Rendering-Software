@@ -10,7 +10,6 @@ A open-access webapp to navigate 3D Holotomography images controlled by standard
 
 - __Staging:__ Once a file is uploaded, users can stage the file to be displayed through Unreal Engine's Pixel Streaming Plugin. Only one file can be staged at a time.
 
-
 ## Development
 
 - Developed and tested on Windows 11.
@@ -19,28 +18,78 @@ A open-access webapp to navigate 3D Holotomography images controlled by standard
 ## Dependencies
 
 Development was done on Python 3.12. The project dependencies are shown in requirements.txt. You can download them at once in the project's root directory with shell command:
-```bash
+~~~bash
 pip install -r backend/dependencies.txt
-```
+~~~
 
 ## Setup
 
+### Python Virtual Environment Setup (Recommended)
+
+1. Create a Python virtual environment in the project root:
+~~~bash
+python -m venv venv
+~~~
+
+2. Activate the virtual environment:
+
+- On Windows PowerShell:
+  ~~~powershell
+  .\venv\Scripts\Activate.ps1
+  ~~~
+- On Windows CMD:
+  ~~~cmd
+  .\venv\Scripts\activate.bat
+  ~~~
+- On macOS/Linux:
+  ~~~bash
+  source venv/bin/activate
+  ~~~
+
+3. Install the required Python packages:
+~~~bash
+pip install -r backend/dependencies.txt
+~~~
+
+---
+
 The frontend component can be run as follows:
-```bash
+~~~bash
 cd webapp
 npm install
 npm start
-```
+~~~
 
 The backend server can be run as follows:
-```bash
+~~~bash
 cd backend
 python manage.py migrate
 python manage.py runserver
-```
+~~~
+
 Each server must be ran on separate terminals. This can be done with keyboard shortcut Ctrl + Shift +`.
 
 The frontend will be accessible in a browser at http://localhost:3000 after proper setup.
+
+---
+
+## Unreal Engine PixelStreamer Setup
+
+To use the Pixel Streaming feature, download the latest release called **UnrealEnginePixelStreamer** from the releases page.
+
+After downloading:
+
+1. Place `NiagaraPointCloud-Windows.ucas` into:
+~~~
+Windows/NiagaraPointCloud/Content/Paks/
+~~~
+
+2. Place `NiagaraPointCloud.exe` and `NiagaraPointCloud.pdb` into:
+~~~
+Windows/NiagaraPointCloud/Binaries/
+~~~
+
+---
 
 ## Pixel Streaming User Interface
 
